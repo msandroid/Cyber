@@ -1,0 +1,1163 @@
+{
+ "generated_at": "2026-10-30T08:49:41+00:00",
+ "count": 52,
+ "records": [
+  {
+   "id": "7d9fa054e5fe62d6",
+   "title": "Binance probes potential $5.8 billion crypto-theft hack",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "crypto_theft"
+   ],
+   "sectors": [
+    "金融・暗号資産"
+   ],
+   "countries": [],
+   "actors": [],
+   "victim": "Binance",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "a6d0e88b749ca24b",
+   "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+   "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana starter kit on GitHub is positioned to trick AI coding agents into installing a NetSupport RAT.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "malware",
+    "ai_abuse"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "17e71a11c730f03f",
+   "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+   "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers.",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access",
+    "supply_chain"
+   ],
+   "sectors": [
+    "物流・運輸"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "日本航空 (JAL)",
+   "first_seen": "2026-10-30T08:49:41+00:00",
+   "notes": "委託先 Amadeus の旅客サービスシステム経由で約9万2000人の情報が流出。",
+   "curated": true
+  },
+  {
+   "id": "fe7730fa406879f5",
+   "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+   "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets traced to a suspected attacker wallet.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "supply_chain",
+    "crypto_theft"
+   ],
+   "sectors": [
+    "金融・暗号資産"
+   ],
+   "countries": [],
+   "actors": [],
+   "victim": "Polymarket",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "e692538b686ec012",
+   "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets.",
+   "kind": "incident",
+   "attack_types": [
+    "crypto_theft"
+   ],
+   "sectors": [
+    "金融・暗号資産"
+   ],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "7c2b70bd7e3e786d",
+   "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift.",
+   "kind": "vulnerability",
+   "attack_types": [
+    "vuln_exploit",
+    "malware",
+    "espionage"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [
+    "UAT-11473"
+   ],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "a556f2a13255d187",
+   "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+   "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Yahoo.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "supply_chain"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "748d67ab1d92c076",
+   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild.",
+   "kind": "vulnerability",
+   "attack_types": [],
+   "sectors": [],
+   "countries": [
+    "US"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "409f0b0486b7348a",
+   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices.",
+   "kind": "vulnerability",
+   "attack_types": [
+    "vuln_exploit",
+    "ddos"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "6c129a8658fc10c5",
+   "title": "Limited reports of PHP bug exploitation emerge",
+   "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
+   "source_id": "the_record",
+   "source_name": "The Record",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "One cyber firm listed a half-dozen exploitations of the PHP2Shell bugs, and another identified a well targeted, suspected Chinese campaign that breached U.S. \"government affiliated\" servers.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "vuln_exploit"
+   ],
+   "sectors": [
+    "政府・自治体"
+   ],
+   "countries": [
+    "US"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "31dc864af62655f4",
+   "title": "Federal bankruptcy courts contractor says no data stolen during cyber intrusion",
+   "url": "https://therecord.media/us-bankruptcy-courts-it-contractor-says-no-data-stolen-cyberattack",
+   "source_id": "the_record",
+   "source_name": "The Record",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "\"No data was extracted,\" a spokesperson for BAE Systems, a federal contractor, told Recorded Future News about its probe into a cyberattack against its systems for federal bankruptcy courts.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "政府・自治体"
+   ],
+   "countries": [
+    "US"
+   ],
+   "actors": [],
+   "victim": "Federal bankruptcy courts contractor",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "342c74932bccb89e",
+   "title": "Cyberattack disrupts Belgian tax services before filing deadline",
+   "url": "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
+   "source_id": "the_record",
+   "source_name": "The Record",
+   "lang": "en",
+   "published": "2026-10-29",
+   "summary": "The Federal Public Service Finance (FPS Finance), which oversees taxation and other financial administration, said Wednesday that it was investigating the extent of the attack and had temporarily suspended access to MyMinfin, the country's main online platform for managing tax and financial affairs.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "政府・自治体"
+   ],
+   "countries": [
+    "BE"
+   ],
+   "actors": [],
+   "victim": "ベルギー連邦財務省 (FPS Finance)",
+   "first_seen": "2026-10-30T08:49:41+00:00",
+   "notes": "オンライン税務ポータル MyMinfin へのアクセスを一時停止。",
+   "curated": true
+  },
+  {
+   "id": "6369b7f8877cd3df",
+   "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+   "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+   "source_id": "bleepingcomputer",
+   "source_name": "BleepingComputer",
+   "lang": "en",
+   "published": "2026-10-28",
+   "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities.",
+   "kind": "enforcement",
+   "attack_types": [],
+   "sectors": [],
+   "countries": [
+    "US"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "697aeb2243e0ec4e",
+   "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+   "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-28",
+   "summary": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "ransomware"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "GMOインターネットグループ",
+   "first_seen": "2026-10-30T08:49:41+00:00",
+   "notes": "お名前.com デスクトップクラウドが侵害。恐喝要求を拒否し、最大100万ドルの情報提供報奨金を設定。",
+   "curated": true
+  },
+  {
+   "id": "eb73651e36eef1c5",
+   "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+   "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-28",
+   "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit.",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access",
+    "vuln_exploit",
+    "espionage",
+    "ai_abuse"
+   ],
+   "sectors": [
+    "政府・自治体"
+   ],
+   "countries": [
+    "US"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "10e92bd49867d2da",
+   "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+   "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-28",
+   "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.",
+   "kind": "vulnerability",
+   "attack_types": [
+    "vuln_exploit",
+    "espionage"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [
+    "Volt Typhoon"
+   ],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "f01e6eed4371d339",
+   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+   "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-28",
+   "summary": "",
+   "kind": "vulnerability",
+   "attack_types": [
+    "vuln_exploit"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [
+    "ShinyHunters"
+   ],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "dc166c047f571359",
+   "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+   "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-28",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "vuln_exploit"
+   ],
+   "sectors": [
+    "小売・EC"
+   ],
+   "countries": [
+    "US"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "2938340547aa5ea0",
+   "title": "GMOに身代金要求 - ランサム攻撃や情報公開を行うと脅迫",
+   "url": "https://www.security-next.com/191999",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-27",
+   "summary": "GMOインターネットの仮想デスクトップサービスが侵害された問題で、攻撃予告が行われている。同社では対応を進めるとともに、利用者に注意を呼びかけた。",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "GMO",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "96b55046de5d052d",
+   "title": "49システムで情報流出、横展開など確認 - ユミルリンク",
+   "url": "https://www.security-next.com/192029",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-27",
+   "summary": "ユミルリンクのメール配信サービスがサイバー攻撃を受けた問題で、同社顧客が利用する49のシステムにおいて情報流出が確認された。同社では影響など詳しく調べている。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach"
+   ],
+   "sectors": [
+    "IT・通信"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "ユミルリンク",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "8d39d2cb7a0dc305",
+   "title": "バンナム子会社に不正アクセス - 「一番くじONLINE」配送情報が流出か",
+   "url": "https://www.security-next.com/191994",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-27",
+   "summary": "バンダイナムコホールディングスの子会社で、物流事業を手がけるバンダイロジパルは、不正アクセスによりオンラインくじサービスの配送情報が流出した可能性があることを明らかにした。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "物流・運輸"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "バンダイロジパル（バンダイナムコHD子会社）",
+   "first_seen": "2026-10-30T08:49:41+00:00",
+   "curated": true
+  },
+  {
+   "id": "5f0169143c067a6a",
+   "title": "婚活イベントで申込者情報を誤公開、開催中止に - 岡山県",
+   "url": "https://www.security-next.com/191915",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-27",
+   "summary": "岡山県は、同県と婚活イベントを共催しているおかやま結婚推進協会において個人情報が流出したことを明らかにした。",
+   "kind": "mishandling",
+   "attack_types": [
+    "data_breach"
+   ],
+   "sectors": [
+    "政府・自治体"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "岡山県",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "42e0ca155a391665",
+   "title": "「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
+   "url": "https://www.security-next.com/192044",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-27",
+   "summary": "Googleのデータ圧縮ライブラリ「Brotli」に関する脆弱性やAdobeが提供するeコマースサイト関連製品「Adobe Commerce」「Magento」の脆弱性が悪用されている。米当局が注意を呼びかけた。",
+   "kind": "vulnerability",
+   "attack_types": [
+    "vuln_exploit"
+   ],
+   "sectors": [],
+   "countries": [
+    "US"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "b8f83e8bf27f1f5e",
+   "title": "脆弱性「PHP2Shell」の悪用を確認 - 米当局が注意喚起",
+   "url": "https://www.security-next.com/191976",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-27",
+   "summary": "プログラミング言語「PHP」で判明した脆弱性「PHP2Shell」について、実際に悪用されていることが確認されているとし、米当局は注意を呼びかけた。",
+   "kind": "vulnerability",
+   "attack_types": [
+    "vuln_exploit"
+   ],
+   "sectors": [],
+   "countries": [
+    "US"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "17cee8d3846c5f1d",
+   "title": "日本企業が「サイバー攻撃はAIのせい」にして目を背ける“本当の原因”",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/27/news018.html",
+   "source_id": "atmarkit",
+   "source_name": "ITmedia @IT",
+   "lang": "ja",
+   "published": "2026-10-27",
+   "summary": "国内企業を揺るがす一連の不正アクセス被害で、AIによる自律型攻撃ツール「ARTEX」の関与が判明した。短時間で広範囲に仕掛けられる攻撃に注目が集まるが、専門家たちが一様に指摘するのは「使われた侵入経路そのものは従来と変わらない」という厳しい現実だった。",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "ai_abuse"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "8bf9ca0ccea23b0c",
+   "title": "VS Code使いは要注意 GitHub経由で送られる「悪意あるリポジトリ」を見分けるポイント",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/27/news081.html",
+   "source_id": "atmarkit",
+   "source_name": "ITmedia @IT",
+   "lang": "ja",
+   "published": "2026-10-27",
+   "summary": "Jamf Threat Labsは、北朝鮮に関連するとされる脅威アクターが悪意あるGitリポジトリを送付する手法を分析した結果を公開した。偽の採用プロセスを装って開発者を標的にしているという。",
+   "kind": "advisory",
+   "attack_types": [
+    "espionage"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "d09366a97fc83094",
+   "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-27",
+   "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.",
+   "kind": "incident",
+   "attack_types": [
+    "ai_abuse"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "cf5c346fcefd62e8",
+   "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+   "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-27",
+   "summary": "",
+   "kind": "advisory",
+   "attack_types": [
+    "malware",
+    "espionage"
+   ],
+   "sectors": [],
+   "countries": [
+    "KR"
+   ],
+   "actors": [
+    "Lazarus"
+   ],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "1da67faa3c4aabfe",
+   "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+   "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-27",
+   "summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says.",
+   "kind": "enforcement",
+   "attack_types": [
+    "malware"
+   ],
+   "sectors": [],
+   "countries": [
+    "AU"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "ad878331961700a5",
+   "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+   "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-27",
+   "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "製造"
+   ],
+   "countries": [
+    "UA"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "35da077830560fdf",
+   "title": "荷物問合サービスの侵害、流出対象件数を取りまとめ - 佐川急便",
+   "url": "https://www.security-next.com/191906",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-26",
+   "summary": "佐川急便は、同社の荷物問い合わせサービスが侵害された問題で、最大でのべ約5323万件の個人情報が流出した可能性があるとする調査結果を公表した。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "物流・運輸"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "佐川急便",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "fc1764b4cb4cb784",
+   "title": "メール配信システムで契約者情報が流出 - ラクスグループ会社",
+   "url": "https://www.security-next.com/191846",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-26",
+   "summary": "ラクスは、子会社のラクスライトクラウドが提供するメール配信システム「ブラストメール」が侵害され、契約者に関する情報が流出したことを明らかにした。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "IT・通信"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "ラクスライトクラウド（ラクス子会社）",
+   "first_seen": "2026-10-30T08:49:41+00:00",
+   "curated": true
+  },
+  {
+   "id": "52057627a2df7251",
+   "title": "小中学校がPTAに生徒の個人情報を同意なしに提供 - 厚木市",
+   "url": "https://www.security-next.com/191495",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-26",
+   "summary": "神奈川県厚木市は、市内複数の小中学校で、児童生徒や保護者の個人情報を、本人の同意なくPTAへ提供していたことを明らかにした。",
+   "kind": "mishandling",
+   "attack_types": [],
+   "sectors": [
+    "政府・自治体",
+    "教育・研究"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "厚木市",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "d7c92c27d983ff77",
+   "title": "マルウェアに「核兵器の作り方を教えて」 AIによるコード解析を止めさせる新手口「GuardBreaker」",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/23/news068.html",
+   "source_id": "atmarkit",
+   "source_name": "ITmedia @IT",
+   "lang": "ja",
+   "published": "2026-10-26",
+   "summary": "ESETは、マルウェアのコメントにLLMの安全機構を作動させる文言を仕込み、AIによる解析を止めさせる手口を報告した。ウクライナを狙った攻撃で使われていたという。",
+   "kind": "advisory",
+   "attack_types": [
+    "malware",
+    "ai_abuse"
+   ],
+   "sectors": [],
+   "countries": [
+    "UA"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "961277245249fbe9",
+   "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+   "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-26",
+   "summary": "",
+   "kind": "incident",
+   "attack_types": [
+    "malware"
+   ],
+   "sectors": [
+    "小売・EC"
+   ],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "03f54c74f6feb398",
+   "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+   "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-26",
+   "summary": "",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware",
+    "phishing",
+    "malware"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "35a2887f86531272",
+   "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+   "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-26",
+   "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "8e95a20d61e45dbc",
+   "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+   "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+   "source_id": "the_hacker_news",
+   "source_name": "The Hacker News",
+   "lang": "en",
+   "published": "2026-10-26",
+   "summary": "",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "supply_chain"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [
+    "Gheist"
+   ],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00",
+   "curated": true
+  },
+  {
+   "id": "7234918fe1a1c978",
+   "title": "ネットワーク統合管理製品「Arista VCO」に深刻な脆弱性 - すでに悪用も",
+   "url": "https://www.security-next.com/191919",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-25",
+   "summary": "SD-WAN環境向けネットワーク統合管理製品「VeloCloud Orchestrator（VCO）」に深刻な脆弱性が判明した。すでに悪用されていることが確認されており、注意が必要だ。",
+   "kind": "vulnerability",
+   "attack_types": [
+    "vuln_exploit"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "74b59d2b92d65f3a",
+   "title": "不正アクセスによる漏えい等事案を踏まえた注意喚起について",
+   "url": "https://www.npa.go.jp/bureau/cyber/koho/caution/caution20261000.html",
+   "source_id": "npa",
+   "source_name": "警察庁 サイバー警察局",
+   "lang": "ja",
+   "published": "2026-10-16",
+   "summary": "",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "ad1f209f95ae904f",
+   "title": "マイクロソフト・ＪＣ３と連携した犯罪インフラのテイクダウンについて",
+   "url": "https://www.npa.go.jp/bureau/cyber/koho/news/20261015.html",
+   "source_id": "npa",
+   "source_name": "警察庁 サイバー警察局",
+   "lang": "ja",
+   "published": "2026-10-15",
+   "summary": "",
+   "kind": "enforcement",
+   "attack_types": [],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "bf27ff21ea24ddb5",
+   "title": "中国政府関連のサイバー攻撃グループを支援する企業に関する国際アドバイザリーへの共同署名について",
+   "url": "https://www.npa.go.jp/bureau/cyber/koho/caution/caution202610_itg.html",
+   "source_id": "npa",
+   "source_name": "警察庁 サイバー警察局",
+   "lang": "ja",
+   "published": "2026-10-09",
+   "summary": "",
+   "kind": "advisory",
+   "attack_types": [
+    "espionage"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "73f763cc7f8c8343",
+   "title": "Major Cyber Attacks, Data Breaches, Ransomware Attacks: September 2026",
+   "url": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-september-2026",
+   "source_id": "cm_alliance",
+   "source_name": "CM-Alliance",
+   "lang": "en",
+   "published": "2026-10-01",
+   "summary": "September's cyber incidents did not follow a neat pattern. CenterPoint Energy faced a cybersecurity incident affecting corporate systems.",
+   "kind": "summary",
+   "attack_types": [
+    "ransomware",
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "エネルギー・インフラ"
+   ],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "4e0f8056bafc0ef2",
+   "title": "北朝鮮サイバー攻撃グループ「WaterPlum」(ウォータープラム)及び北朝鮮IT労働者に関する我が国、米国、豪州及びドイツによるパブリック・アトリビューションについて",
+   "url": "https://www.npa.go.jp/bureau/cyber/koho/caution/caution20260918.html",
+   "source_id": "npa",
+   "source_name": "警察庁 サイバー警察局",
+   "lang": "ja",
+   "published": "2026-09-18",
+   "summary": "",
+   "kind": "advisory",
+   "attack_types": [
+    "espionage"
+   ],
+   "sectors": [],
+   "countries": [
+    "US",
+    "DE",
+    "AU"
+   ],
+   "actors": [
+    "WaterPlum"
+   ],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "22527090f17deb78",
+   "title": "サイバー警察局便りR8Vol.18「不正アプリによる不正送金被害が発生」",
+   "url": "https://www.npa.go.jp/bureau/cyber/pdf/R8_Vol.18cpal.pdf",
+   "source_id": "npa",
+   "source_name": "警察庁 サイバー警察局",
+   "lang": "ja",
+   "published": "2026-09-18",
+   "summary": "",
+   "kind": "incident",
+   "attack_types": [
+    "malware"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "88a9200b0d7fca96",
+   "title": "Massive Vietnam-Linked APIS Database Exposes Passport and Flight Data",
+   "url": "https://securityaffairs.com/198671/data-breach/massive-vietnam-linked-apis-database-exposes-passport-and-flight-data.html",
+   "source_id": "security_affairs",
+   "source_name": "Security Affairs",
+   "lang": "en",
+   "published": "2026-09-08",
+   "summary": "Kinryū Labs reported the issue to Vietnamese authorities, affected airlines and national CERTs on June 3. The database was secured by June 8. Researchers found no evidence that the listed airlines operated the system or suffered a network breach.",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "物流・運輸"
+   ],
+   "countries": [
+    "VN"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "e3f2ce47c92e57c6",
+   "title": "North Korea-linked Hackers Hide a Backdoor Inside HAProxy",
+   "url": "https://securityaffairs.com/198656/apt/north-korea-linked-hackers-hide-a-backdoor-inside-haproxy.html",
+   "source_id": "security_affairs",
+   "source_name": "Security Affairs",
+   "lang": "en",
+   "published": "2026-09-08",
+   "summary": "",
+   "kind": "advisory",
+   "attack_types": [
+    "malware",
+    "espionage"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "13ca58d4a0951074",
+   "title": "IT Help Desk Impersonation Lets Hackers Bypass MFA",
+   "url": "https://securityaffairs.com/198634/cyber-crime/it-help-desk-impersonation-lets-hackers-bypass-mfa.html",
+   "source_id": "security_affairs",
+   "source_name": "Security Affairs",
+   "lang": "en",
+   "published": "2026-09-08",
+   "summary": "Attackers bypass endpoint security by posing as IT staff, stealing Microsoft 365 sessions, draining SaaS data and demanding extortion. A widespread threat cluster tracked as PREY-0058 bypasses endpoint security entirely by targeting Microsoft 365 and SaaS environments through pure social engineering.",
+   "kind": "incident",
+   "attack_types": [
+    "phishing"
+   ],
+   "sectors": [
+    "IT・通信"
+   ],
+   "countries": [],
+   "actors": [
+    "PREY-0058"
+   ],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "febb74e6fd391a6a",
+   "title": "Berlin Ransomware Leak Exposes State Secrets",
+   "url": "https://securityaffairs.com/198545/cyber-crime/berlin-ransomware-leak-exposes-state-secrets.html",
+   "source_id": "security_affairs",
+   "source_name": "Security Affairs",
+   "lang": "en",
+   "published": "2026-09-07",
+   "summary": "Berlin refused a 30 Bitcoin ransom, leading hackers to leak 6TB of sensitive state administration and national defense data on the dark web. The Rhysida ransomware group claimed responsibility on its leak site August 28.",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware",
+    "data_breach"
+   ],
+   "sectors": [
+    "政府・自治体"
+   ],
+   "countries": [
+    "DE"
+   ],
+   "actors": [
+    "Rhysida"
+   ],
+   "victim": "ベルリン州（ドイツ）",
+   "first_seen": "2026-10-30T08:49:41+00:00",
+   "notes": "身代金30BTCの支払いを拒否後、Rhysidaが約5.79TB・約144万ファイルを公開したと主張。",
+   "curated": true
+  },
+  {
+   "id": "5160f09f05f105f6",
+   "title": "Condé Nast Data of 32.8 Million Users Offered for Sale After WIRED Leak",
+   "url": "https://securityaffairs.com/198628/data-breach/conde-nast-data-of-32-8-million-users-offered-for-sale-after-wired-leak.html",
+   "source_id": "security_affairs",
+   "source_name": "Security Affairs",
+   "lang": "en",
+   "published": "2026-09-07",
+   "summary": "Condé Nast user data from 32.8 million accounts is reportedly for sale, raising risks of targeted phishing, fraud and scams. A database said to contain 32.8 million Condé Nast user records is being offered for $15,000 on a Russian-language cybercrime forum.",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "phishing"
+   ],
+   "sectors": [
+    "メディア・エンタメ"
+   ],
+   "countries": [],
+   "actors": [],
+   "victim": "Condé Nast",
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "3be3480c2e544222",
+   "title": "StyleSmuggler: The Magento Zero-Day Behind New Store Attacks",
+   "url": "https://securityaffairs.com/198603/uncategorized/stylesmuggler-the-magento-zero-day-behind-new-store-attacks.html",
+   "source_id": "security_affairs",
+   "source_name": "Security Affairs",
+   "lang": "en",
+   "published": "2026-09-07",
+   "summary": "StyleSmuggler Magento zero-day is under active attack, letting unauthenticated attackers execute code and install backdoors on stores that may already be patched.",
+   "kind": "vulnerability",
+   "attack_types": [
+    "vuln_exploit",
+    "malware"
+   ],
+   "sectors": [],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "ff375237e8163cfe",
+   "title": "Major Cyber Attacks, Data Breaches, Ransomware Attacks in August 2026",
+   "url": "https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-data-breaches-ransomware-attacks-in-august-2026",
+   "source_id": "cm_alliance",
+   "source_name": "CM-Alliance",
+   "lang": "en",
+   "published": "2026-09-01",
+   "summary": "August 2026 saw cyber threats cut across an unusually diverse range of sectors, from logistics and financial services to healthcare, government and critical infrastructure.",
+   "kind": "summary",
+   "attack_types": [
+    "ransomware",
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "医療・福祉",
+    "金融・暗号資産",
+    "政府・自治体",
+    "物流・運輸",
+    "エネルギー・インフラ"
+   ],
+   "countries": [],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-10-30T08:49:41+00:00"
+  }
+ ]
+}

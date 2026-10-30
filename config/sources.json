@@ -1,0 +1,38 @@
+{
+  "_comment": "収集元の定義。type: rss (RSS/RDF/Atom) | html_links (ページ内リンク抽出) | cisa_kev | ransomware_live。verified=false は URL 未確認。取得に失敗したら docs/data/status.json を見て url を直す。",
+  "sources": [
+    {"id": "jpcert", "name": "JPCERT/CC", "lang": "ja", "type": "rss",
+     "url": "https://www.jpcert.or.jp/rss/jpcert.rdf", "home": "https://www.jpcert.or.jp/", "verified": false},
+    {"id": "ipa", "name": "IPA", "lang": "ja", "type": "rss",
+     "url": "https://www.ipa.go.jp/security/alert-rss.rdf", "home": "https://www.ipa.go.jp/", "verified": false},
+    {"id": "npa", "name": "警察庁 サイバー警察局", "lang": "ja", "type": "html_links",
+     "url": "https://www.npa.go.jp/bureau/cyber/", "home": "https://www.npa.go.jp/",
+     "link_pattern": "^https://www\\.npa\\.go\\.jp/bureau/cyber/(koho/(caution|news)/[^\"]+\\.html|pdf/R\\d+_Vol\\.\\d+cpal\\.pdf)$",
+     "verified": true},
+    {"id": "security_next", "name": "Security NEXT", "lang": "ja", "type": "rss",
+     "url": "https://www.security-next.com/feed", "home": "https://www.security-next.com/", "verified": true},
+    {"id": "atmarkit", "name": "ITmedia @IT", "lang": "ja", "type": "rss",
+     "url": "https://rss.itmedia.co.jp/rss/2.0/ait.xml", "home": "https://atmarkit.itmedia.co.jp/", "verified": true},
+    {"id": "rocket_boys", "name": "ロケットボーイズ", "lang": "ja", "type": "rss",
+     "url": "https://rocket-boys.co.jp/feed/", "home": "https://rocket-boys.co.jp/", "verified": false},
+
+    {"id": "bleepingcomputer", "name": "BleepingComputer", "lang": "en", "type": "rss",
+     "url": "https://www.bleepingcomputer.com/feed/", "home": "https://www.bleepingcomputer.com/", "verified": true},
+    {"id": "the_record", "name": "The Record", "lang": "en", "type": "rss",
+     "url": "https://therecord.media/feed", "home": "https://therecord.media/", "verified": true},
+    {"id": "the_hacker_news", "name": "The Hacker News", "lang": "en", "type": "rss",
+     "url": "https://feeds.feedburner.com/TheHackersNews", "home": "https://thehackernews.com/", "verified": true},
+    {"id": "security_affairs", "name": "Security Affairs", "lang": "en", "type": "rss",
+     "url": "https://securityaffairs.com/feed", "home": "https://securityaffairs.com/", "verified": true},
+    {"id": "cm_alliance", "name": "CM-Alliance", "lang": "en", "type": "html_links",
+     "url": "https://www.cm-alliance.com/cybersecurity-blog", "home": "https://www.cm-alliance.com/cybersecurity-blog",
+     "link_pattern": "^https://www\\.cm-alliance\\.com/cybersecurity-blog/major-cyber-attacks[^\"]*$",
+     "default_kind": "summary",
+     "verified": true},
+    {"id": "cisa_kev", "name": "CISA KEV", "lang": "en", "type": "cisa_kev",
+     "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+     "home": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog", "max_age_days": 120, "verified": false},
+    {"id": "ransomware_live", "name": "ransomware.live", "lang": "en", "type": "ransomware_live",
+     "url": "https://api.ransomware.live/v2/recentvictims", "home": "https://www.ransomware.live/", "verified": false}
+  ]
+}
