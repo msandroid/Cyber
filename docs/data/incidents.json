@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-30T08:49:41+00:00",
- "count": 52,
+ "generated_at": "2026-11-01T06:01:43+00:00",
+ "count": 81,
  "records": [
   {
    "id": "7d9fa054e5fe62d6",
@@ -269,6 +269,76 @@
    "first_seen": "2026-10-30T08:49:41+00:00",
    "notes": "オンライン税務ポータル MyMinfin へのアクセスを一時停止。",
    "curated": true
+  },
+  {
+   "id": "cf1eb4b63698f5eb",
+   "title": "UDリテールなどグループ4社の時計修理委託先へのランサムウェア攻撃 - 顧客情報流出のおそれ",
+   "url": "https://www.security-next.com/191999_udr",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-28",
+   "summary": "ドン・キホーテなどが時計修理を委託するコックスのサーバが9月15日にランサムウェアで暗号化された。委託元4社（UDリテール、ドン・キホーテ等）が10月28日に連名で公表し、2025年9月以降に時計修理を依頼した顧客の氏名・住所・電話番号が漏えいした可能性があるとしている。",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware",
+    "data_breach",
+    "supply_chain"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "69a78170ca868b8d",
+   "title": "JAL・日本トランスオーシャン航空、委託先Amadeusシステムへの不正アクセスで旅客情報約9.2万件が参照",
+   "url": "https://www.security-next.com/191_jal_amadeus",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-28",
+   "summary": "日本航空と日本トランスオーシャン航空は10月28日、委託先Amadeus社の旅客サービスシステムへの不正アクセスを公表した。両社便名の一部予約情報、計約92,000名分に外部から参照された形跡がある。カード番号・各種パスワードの漏えいはなく、不正使用と運航への影響も確認されていない。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access",
+    "supply_chain"
+   ],
+   "sectors": [
+    "物流・運輸"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "d14c25eb18e4af30",
+   "title": "DIRIGIO「PICKS」への不正アクセス - サーティワン等利用ブランド3社で計約8,184名の情報漏えい",
+   "url": "https://www.security-next.com/191_dirigio_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-28",
+   "summary": "モバイルオーダー基盤「PICKS」を運営するDIRIGIOへの不正アクセスにより、サーティワンアイスクリーム最大8,174名、サブウェイ7名、DEAN & DELUCA 3名の氏名・メールアドレス・電話番号・注文内容などが漏えいまたはそのおそれ。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
   },
   {
    "id": "6369b7f8877cd3df",
@@ -869,6 +939,78 @@
    "first_seen": "2026-10-30T08:49:41+00:00"
   },
   {
+   "id": "30dde1cb14a1492c",
+   "title": "複数システムに不正アクセス、個人情報が流出 - ユミルリンク",
+   "url": "https://www.security-next.com/191652",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-20",
+   "summary": "ユミルリンクは、同社が運営するメール配信サービスのサーバが外部から不正アクセスを受け、個人情報が流出したことを明らかにした。プログラムの脆弱性を突かれ、5つのシステムからデータが出力。メールアドレスを含む情報がのべ約900万件にのぼると見られている。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "IT・通信"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "ユミルリンク",
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "92c32b985110c1ce",
+   "title": "NECの委託先経由の不正アクセスによる顧客システム障害と情報漏えい",
+   "url": "https://www.security-next.com/191_nec_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-20",
+   "summary": "日本電気（NEC）は10月20日、委託先を経由した不正アクセスにより、顧客のシステムに障害が発生し、情報漏えいが生じたことを明らかにした。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access",
+    "supply_chain"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "3aa2f61005857936",
+   "title": "日本経済新聞社、開発用クラウドへの不正アクセスで個人情報約183万件が漏えいの可能性",
+   "url": "https://www.security-next.com/191_nikkei_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-16",
+   "summary": "日本経済新聞社は10月16日、開発用クラウドの認証情報が窃取され、10月7日未明から朝にかけて不正アクセスがあったと発表した。氏名・メール・住所・電話・生年月日のいずれかを含む個人情報が約15万件、識別子のみが約168万件。認証情報は無効化済み。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "IT・通信",
+    "メディア・エンタメ"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
    "id": "74b59d2b92d65f3a",
    "title": "不正アクセスによる漏えい等事案を踏まえた注意喚起について",
    "url": "https://www.npa.go.jp/bureau/cyber/koho/caution/caution20261000.html",
@@ -891,6 +1033,27 @@
    "first_seen": "2026-10-30T08:49:41+00:00"
   },
   {
+   "id": "0f0decbc9dba0351",
+   "title": "ソースネクスト、会員情報取得APIの不正利用で最大2,251万件の会員情報が漏えいの可能性",
+   "url": "https://www.security-next.com/191_sourcenext_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-15",
+   "summary": "ソースネクストは10月15日、会員情報取得APIが10月9日頃から不正に利用され、最大22,519,960件の会員情報が漏えいした可能性があると発表した。メールアドレス、パスワード、氏名、住所、電話番号、生年月日などが対象。10月13日中に封じ込めを完了した。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
    "id": "ad1f209f95ae904f",
    "title": "マイクロソフト・ＪＣ３と連携した犯罪インフラのテイクダウンについて",
    "url": "https://www.npa.go.jp/bureau/cyber/koho/news/20261015.html",
@@ -906,6 +1069,74 @@
    "actors": [],
    "victim": null,
    "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "dfbe4c604edd216e",
+   "title": "ライドオンエクスプレス「銀のさら」等へのランサムウェア攻撃 - 最大約650万件の個人情報漏えいのおそれ",
+   "url": "https://www.security-next.com/191_rideon_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-13",
+   "summary": "ライドオンエクスプレスホールディングスは10月13日、同社グループの「銀のさら」「釜寅」「すし上等」などがランサムウェア攻撃を受け、最大約650万件の個人情報が漏えいするおそれがあると発表した。公式サイトとアプリも停止した。",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware",
+    "data_breach"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "bd4a9ff1f1a82e4d",
+   "title": "IDCフロンティアのクラウドにランサムウェア攻撃 - 495社・自治体が影響",
+   "url": "https://www.security-next.com/191_idcf_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-09",
+   "summary": "IDCフロンティアは10月7日から9日にかけて、クラウドサービス「IDCFクラウド」の東日本リージョン1の一部がランサムウェア攻撃を受け、仮想サーバーが停止した。契約する495の企業・自治体に影響が及んだ。JR東日本・ビューカード（最大約206万件・約403万件）、JR東海（最大約15,000件）、Peach Aviationなどに波及。",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware"
+   ],
+   "sectors": [
+    "政府・自治体",
+    "IT・通信"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "IDCフロンティアのクラウド",
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "ca3f89b6e22e7f97",
+   "title": "「skyticket」での3件の不正アクセス - 最大約1,464万件のユーザー情報が漏えいのおそれ",
+   "url": "https://www.security-next.com/191_adventure_skyticket_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-09",
+   "summary": "アドベンチャーが運営する旅行比較予約サイト「skyticket」で3件の事案を公表。約1,464万件（うち約413万件はハッシュ化パスワードも）の会員情報、クレジットカード情報最大6,140名、返金口座など17,780件、バス予約約12,000件が影響を受けた可能性がある。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
   },
   {
    "id": "bf27ff21ea24ddb5",
@@ -925,6 +1156,75 @@
    "actors": [],
    "victim": null,
    "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "bfb745647aefbf8a",
+   "title": "ミスターマックス、不正アクセスで最大約173.5万人の会員情報が漏えい",
+   "url": "https://www.security-next.com/191_misutamax_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-07",
+   "summary": "ミスターマックスは10月6日、不正アクセスにより最大1,735,154人の会員情報が漏えいした可能性があると発表した。個人情報保護委員会へ報告し、警察に相談している。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "8c723c9374c04526",
+   "title": "物語コーポレーション、不正アクセスで会員情報約1,078.9万件が漏えい",
+   "url": "https://www.security-next.com/191_monogatari_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-05",
+   "summary": "物語コーポレーション（焼肉きんぐ等）は10月5日、不正アクセスにより会員情報10,788,963件が漏えいした可能性があると発表した。原因を調査中。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "bab00d4f4ed8c3ac",
+   "title": "大和証券、委託先経由の不正アクセスで約11万人分の情報漏えい",
+   "url": "https://www.security-next.com/191_daiwa_202610",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-10-05",
+   "summary": "大和証券は10月5日、委託先経由の不正アクセスにより、約11万人分（非個人情報含め約22万件）の情報が漏えいした可能性があると発表した。不正取引等は未確認。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access",
+    "supply_chain"
+   ],
+   "sectors": [
+    "金融・暗号資産"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
   },
   {
    "id": "73f763cc7f8c8343",
@@ -948,6 +1248,166 @@
    "actors": [],
    "victim": null,
    "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "89cfff00c18bd936",
+   "title": "日本郵便のサーバに不正アクセスか - 詳細は調査中",
+   "url": "https://www.security-next.com/190734",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-29",
+   "summary": "日本郵便は、国際郵便物の調査請求ウェブ受付サービスで使用しているサーバが9月25日に外部からサイバー攻撃を受けた可能性があることを明らかにした。原因や影響範囲について調査中で、サービスを一時停止した。",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "日本郵便のサーバ",
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "ef91ca2c2eb5d640",
+   "title": "モンベルのグローバルサイトに不正アクセス - 個人情報流出の可能性",
+   "url": "https://www.security-next.com/190798",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-29",
+   "summary": "アウトドア用品のモンベルは、海外向けグローバルサイトが不正アクセスを受け、顧客の個人情報が外部へ流出した可能性があることを明らかにした。2026年8月9日から10日にかけて、最大15人のユーザー情報（氏名・住所・電話番号）が第三者に取得された可能性がある。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "モンベルのグローバルサイト",
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "b2758e35223ccf6d",
+   "title": "ヤマト運輸の「クロネコ代金後払い」サービスへの不正アクセス - 利用者情報約526万件が漏えいの可能性",
+   "url": "https://www.security-next.com/190_yamato_202609",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-29",
+   "summary": "ヤマト運輸は9月28日、クロネコ代金後払いサービスに不正アクセスがあったことを確認した。利用者情報約526万件（うちメールアドレス付き約49万件）、お届け先情報約5万件が漏えいした可能性がある。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "物流・運輸"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "5f0b4b68524a6cb1",
+   "title": "セイコーマート、約57万アカウントの個人情報が漏えいの可能性",
+   "url": "https://www.security-next.com/190_seicomart_202609",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-29",
+   "summary": "セイコーマートは9月29日、スマートフォン向けアプリのサーバーに不正アクセスがあり、会員情報約57万アカウントの個人情報が漏えいした可能性があると発表した。氏名、性別、生年月日、住所、電話番号、メールアドレスなどが対象。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "5b451734ead4ee16",
+   "title": "東京メトロ「メトポ」サービスへの不正アクセス - 約5.9万件のメールアドレスが漏えいの可能性",
+   "url": "https://www.security-next.com/190_tokyometro_202609",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-27",
+   "summary": "東京メトロは9月27日、メトロポイントクラブ（メトポ）の会員向けサービスが第三者から不正アクセスを受けたと発表した。約59,000件のメールアドレスが閲覧または取得された可能性がある。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "b0fbeb30ae0e9911",
+   "title": "「OZmall」への不正アクセス - 最大約44.8万人の個人情報が漏えいの可能性",
+   "url": "https://www.security-next.com/190_ozmall_202609",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-27",
+   "summary": "スターツ出版は9月27日、同社が運営する「OZmall」が不正アクセスを受け、会員のメールアドレス最大44万7610名分と、一部の氏名・住所（都道府県まで）が漏えいした可能性があると発表した。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "政府・自治体",
+    "メディア・エンタメ"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "487688815c51fefb",
+   "title": "京王電鉄にランサムウェア攻撃 - 一部グループ会社の営業システムに障害",
+   "url": "https://www.security-next.com/190_keio_202609",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-26",
+   "summary": "京王電鉄は9月26日未明、同社グループのサーバーに対するランサムウェア攻撃を確認した。攻撃の影響により一部グループ会社の営業システムに障害が発生した。鉄道の運行には支障はなく、9月26日時点では情報漏えいの事実は確認されていない。",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware",
+    "data_breach"
+   ],
+   "sectors": [
+    "物流・運輸"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "一部グループ会社の営業システムに障害",
+   "first_seen": "2026-11-01T06:01:43+00:00"
   },
   {
    "id": "4e0f8056bafc0ef2",
@@ -994,6 +1454,51 @@
    "actors": [],
    "victim": null,
    "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "1274c7b215f47fa7",
+   "title": "ロート製薬の不正アクセス、顧客との通話音声データが流出の可能性",
+   "url": "https://www.security-next.com/190377",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-16",
+   "summary": "ロート製薬は、通信販売で利用しているシステムが侵害され、顧客との通話音声データや顧客管理システム内の情報が第三者に取得された可能性があることを明らかにした。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "IT・通信"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "3599c7026bceb42e",
+   "title": "さくらインターネット、3年続いた不正アクセス - 最大136万アカウントに影響",
+   "url": "https://www.security-next.com/190_sakura_202609",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-09-10",
+   "summary": "さくらインターネットは不正アクセスの第三報を公開した。販売管理システムに最大136万563アカウントの情報が影響を受けた可能性があるという。一部のサーバで初期パスワードが平文保存されていたことや、ログ管理体制が不十分であることも判明した。",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
   },
   {
    "id": "88a9200b0d7fca96",
@@ -1158,6 +1663,176 @@
    "actors": [],
    "victim": null,
    "first_seen": "2026-10-30T08:49:41+00:00"
+  },
+  {
+   "id": "dedcb74019dc730b",
+   "title": "中部電力、不正アクセスで関係者情報が流出か - グループ役職員等約7.2万人",
+   "url": "https://www.security-next.com/188338",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-08-05",
+   "summary": "中部電力は、一部システムの資格情報が不正利用され、役職員の一部メールやグループの連絡先情報が参照されたおそれがあると発表した。対象は関係機関・自治体・取引先など関係者約2400人、グループ役職員・委託先社員など約7万1700人。電力供給への影響はなし。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access",
+    "supply_chain"
+   ],
+   "sectors": [
+    "政府・自治体",
+    "エネルギー・インフラ"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "グループ役職員等約7.2万人",
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "02643699827857b9",
+   "title": "ニチレイグループへのサイバー攻撃 - RansomHouseが犯行主張、従業員等5.4万件漏えい",
+   "url": "https://www.security-next.com/187_nichilei_202607",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-07-13",
+   "summary": "ニチレイグループは7月13日、サイバー攻撃を受け、冷蔵倉庫の入出庫・冷凍食品出荷が停止し全面復旧まで11日かかった。従業員・取引先・配送先の個人情報53,866件が漏えいし、RansomHouseが犯行を主張した。",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware",
+    "data_breach",
+    "supply_chain"
+   ],
+   "sectors": [
+    "物流・運輸"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "cef0816ed3edd3d7",
+   "title": "日本交通へのマルウェア感染 - 電話配車・ハイヤー予約が約3か月停止",
+   "url": "https://www.security-next.com/187_nihon_kotsu_202607",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-07-13",
+   "summary": "日本交通は7月13日、マルウェア感染（ランサムウェア主張あり）により電話配車・ハイヤー予約が約3か月停止し、保有ファイルが外部流出したと発表した。",
+   "kind": "incident",
+   "attack_types": [
+    "ransomware",
+    "data_breach",
+    "malware"
+   ],
+   "sectors": [],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "電話配車・ハイヤー予約が約3か月停止",
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "0019b347959dd51a",
+   "title": "複数学生アカウントに不正アクセス、スパムの踏み台に - 日大",
+   "url": "https://www.security-next.com/186973",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-07-09",
+   "summary": "日本大学は、在学生と卒業生あわせて9人のメールアカウントが不正アクセスを受け、迷惑メールの送信に悪用されたことを明らかにした。7月3日時点で1万7864件の迷惑メールが送信された。フィッシングでIDとパスワードを窃取されたと見ている。",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "phishing"
+   ],
+   "sectors": [
+    "教育・研究"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "日大",
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "946548ff7b4217b5",
+   "title": "ソディック、サーバに不正アクセス - 侵害経路や影響を調査",
+   "url": "https://www.security-next.com/185106",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-06-05",
+   "summary": "工作機械メーカーのソディックは、5月15日に一部システムで不審な挙動を検知し、第三者によってサーバが侵害された形跡を確認した。被害サーバをネットワークから遮断し、不正利用アカウントを無効化。サーバ内情報への第三者アクセスの有無を調査中。",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "製造"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": "ソディック、サーバ",
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "b2c8f3531e788df0",
+   "title": "東北大学・同大病院でサーバ等への不正アクセス - 患者の個人情報が流出のおそれ",
+   "url": "https://www.security-next.com/184105",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-05-07",
+   "summary": "東北大学は、4月16日にサーバが侵害され、教員のパソコンが不正利用された。大学病院では治験業務資料が保存されたNASもアクセスされ、患者の個人情報が流出した可能性がある。NAS以外の医療情報システムへの影響は確認されていない。",
+   "kind": "incident",
+   "attack_types": [
+    "data_breach",
+    "unauthorized_access"
+   ],
+   "sectors": [
+    "医療・福祉",
+    "教育・研究"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
+  },
+  {
+   "id": "49c485c4560375d4",
+   "title": "東京計器、業務用チャット「Chatwork」アカウントへのフィッシング攻撃",
+   "url": "https://www.security-next.com/183922",
+   "source_id": "security_next",
+   "source_name": "Security NEXT",
+   "lang": "ja",
+   "published": "2026-05-01",
+   "summary": "精密機器メーカーの東京計器は、フィッシング攻撃を通じてChatworkアカウントが不正アクセスを受けたことを明らかにした。被害アカウントを無効化し、経緯や影響範囲を調査中。",
+   "kind": "incident",
+   "attack_types": [
+    "unauthorized_access",
+    "phishing"
+   ],
+   "sectors": [
+    "製造"
+   ],
+   "countries": [
+    "JP"
+   ],
+   "actors": [],
+   "victim": null,
+   "first_seen": "2026-11-01T06:01:43+00:00"
   }
  ]
 }
