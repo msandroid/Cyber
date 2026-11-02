@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サイバー攻撃事例データベース</title>
+<meta name="description" content="国内外のセキュリティ報道・公的機関の情報から収集したサイバー攻撃事例の検索データベース">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <h1>サイバー攻撃事例データベース</h1>
+    <p class="meta" id="meta">読み込み中…</p>
+  </div>
+  <nav class="wrap tabs" role="tablist">
+    <button role="tab" class="tab" data-tab="list" aria-selected="true">事例一覧</button>
+    <button role="tab" class="tab" data-tab="stats" aria-selected="false">集計</button>
+    <button role="tab" class="tab" data-tab="sources" aria-selected="false">収集元</button>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section id="filters" class="filters" aria-label="絞り込み">
+    <div class="row">
+      <input id="q" type="search" placeholder="キーワード（組織名、攻撃グループ、CVE など）" aria-label="キーワード">
+    </div>
+    <div class="row chips" id="kinds" aria-label="区分"></div>
+    <div class="row selects">
+      <label>攻撃種別<select id="f-attack"></select></label>
+      <label>業種<select id="f-sector"></select></label>
+      <label>国・地域<select id="f-country"></select></label>
+      <label>攻撃者<select id="f-actor"></select></label>
+      <label>収集元<select id="f-source"></select></label>
+      <label>言語<select id="f-lang"><option value="">すべて</option><option value="ja">日本語</option><option value="en">英語</option></select></label>
+      <label>期間<span class="dates"><input id="f-from" type="date" aria-label="開始日"><span>〜</span><input id="f-to" type="date" aria-label="終了日"></span></label>
+    </div>
+    <div class="row actions">
+      <span id="count" class="count"></span>
+      <button id="reset" class="btn">条件をクリア</button>
+      <button id="csv" class="btn">CSVで保存</button>
+    </div>
+  </section>
+
+  <section id="tab-list" class="panel">
+    <ol id="list" class="list"></ol>
+    <button id="more" class="btn more" hidden>さらに表示</button>
+  </section>
+
+  <section id="tab-stats" class="panel" hidden>
+    <p class="hint">現在の絞り込み条件での集計です。</p>
+    <div class="grid">
+      <div class="card"><h2>月別件数</h2><div id="s-month" class="bars"></div></div>
+      <div class="card"><h2>攻撃種別</h2><div id="s-attack" class="bars"></div></div>
+      <div class="card"><h2>業種</h2><div id="s-sector" class="bars"></div></div>
+      <div class="card"><h2>国・地域</h2><div id="s-country" class="bars"></div></div>
+      <div class="card"><h2>攻撃者・グループ</h2><div id="s-actor" class="bars"></div></div>
+      <div class="card"><h2>収集元</h2><div id="s-source" class="bars"></div></div>
+    </div>
+  </section>
+
+  <section id="tab-sources" class="panel" hidden>
+    <p class="hint">各ソースの最終取得状況です。取得に失敗しているソースは <code>config/sources.json</code> の URL を確認してください。</p>
+    <table class="sources">
+      <thead><tr><th>収集元</th><th>言語</th><th>状態</th><th>最終成功</th><th>件数</th></tr></thead>
+      <tbody id="sources"></tbody>
+    </table>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>分類（攻撃種別・業種・国・被害組織）はキーワードによる自動推定で、誤りを含むことがあります。正確な内容は必ずリンク先の原文で確認してください。ransomware.live 由来の項目は攻撃者側の主張で未検証です。</p>
+</footer>
+
+<template id="item-tpl">
+  <li class="item">
+    <button class="item-head" aria-expanded="false">
+      <span class="date"></span>
+      <span class="kind"></span>
+      <span class="title"></span>
+    </button>
+    <div class="item-sub"></div>
+    <div class="item-body" hidden></div>
+  </li>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

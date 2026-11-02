@@ -1,0 +1,6 @@
+{"vulnerabilities": [
+ {"cveID": "CVE-2026-0001", "vendorProject": "Acme", "product": "Gateway", "vulnerabilityName": "Acme Gateway Auth Bypass",
+  "dateAdded": "2026-10-20", "shortDescription": "Authentication bypass.", "knownRansomwareCampaignUse": "Known"},
+ {"cveID": "CVE-2020-9999", "vendorProject": "Old", "product": "Thing", "vulnerabilityName": "Old bug",
+  "dateAdded": "2021-01-01", "shortDescription": "x", "knownRansomwareCampaignUse": "Unknown"}
+]}

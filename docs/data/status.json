@@ -1,0 +1,122 @@
+{
+ "sources": {
+  "jpcert": {
+   "name": "JPCERT/CC",
+   "home": "https://www.jpcert.or.jp/",
+   "url": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+   "lang": "ja",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:49+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "ipa": {
+   "name": "IPA",
+   "home": "https://www.ipa.go.jp/",
+   "url": "https://www.ipa.go.jp/security/alert-rss.rdf",
+   "lang": "ja",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:49+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "npa": {
+   "name": "警察庁 サイバー警察局",
+   "home": "https://www.npa.go.jp/",
+   "url": "https://www.npa.go.jp/bureau/cyber/",
+   "lang": "ja",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:50+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "security_next": {
+   "name": "Security NEXT",
+   "home": "https://www.security-next.com/",
+   "url": "https://www.security-next.com/feed",
+   "lang": "ja",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:51+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "atmarkit": {
+   "name": "ITmedia @IT",
+   "home": "https://atmarkit.itmedia.co.jp/",
+   "url": "https://rss.itmedia.co.jp/rss/2.0/ait.xml",
+   "lang": "ja",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:52+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "rocket_boys": {
+   "name": "ロケットボーイズ",
+   "home": "https://rocket-boys.co.jp/",
+   "url": "https://rocket-boys.co.jp/feed/",
+   "lang": "ja",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:52+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "bleepingcomputer": {
+   "name": "BleepingComputer",
+   "home": "https://www.bleepingcomputer.com/",
+   "url": "https://www.bleepingcomputer.com/feed/",
+   "lang": "en",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:53+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "the_record": {
+   "name": "The Record",
+   "home": "https://therecord.media/",
+   "url": "https://therecord.media/feed",
+   "lang": "en",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:54+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "the_hacker_news": {
+   "name": "The Hacker News",
+   "home": "https://thehackernews.com/",
+   "url": "https://feeds.feedburner.com/TheHackersNews",
+   "lang": "en",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:54+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "security_affairs": {
+   "name": "Security Affairs",
+   "home": "https://securityaffairs.com/",
+   "url": "https://securityaffairs.com/feed",
+   "lang": "en",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:55+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "cm_alliance": {
+   "name": "CM-Alliance",
+   "home": "https://www.cm-alliance.com/cybersecurity-blog",
+   "url": "https://www.cm-alliance.com/cybersecurity-blog",
+   "lang": "en",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:56+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "cisa_kev": {
+   "name": "CISA KEV",
+   "home": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+   "lang": "en",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:56+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  "ransomware_live": {
+   "name": "ransomware.live",
+   "home": "https://www.ransomware.live/",
+   "url": "https://api.ransomware.live/v2/recentvictims",
+   "lang": "en",
+   "ok": false,
+   "last_attempt": "2026-11-02T00:41:57+00:00",
+   "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+ },
+ "updated_at": "2026-11-02T00:41:57+00:00"
+}

@@ -1,0 +1,26 @@
+{
+ "_comment": "自動分類の手動修正。キーは記事URL（またはレコードID）。指定したフィールドだけ上書きされ、curated=true が付く。",
+ "https://securityaffairs.com/198545/cyber-crime/berlin-ransomware-leak-exposes-state-secrets.html": {
+  "victim": "ベルリン州（ドイツ）", "notes": "身代金30BTCの支払いを拒否後、Rhysidaが約5.79TB・約144万ファイルを公開したと主張。"
+ },
+ "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline": {
+  "victim": "ベルギー連邦財務省 (FPS Finance)", "attack_types": ["unauthorized_access"],
+  "notes": "オンライン税務ポータル MyMinfin へのアクセスを一時停止。"
+ },
+ "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/": {
+  "victim": "日本航空 (JAL)", "notes": "委託先 Amadeus の旅客サービスシステム経由で約9万2000人の情報が流出。"
+ },
+ "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html": {
+  "kind": "incident", "victim": "GMOインターネットグループ", "attack_types": ["unauthorized_access", "ransomware"],
+  "notes": "お名前.com デスクトップクラウドが侵害。恐喝要求を拒否し、最大100万ドルの情報提供報奨金を設定。"
+ },
+ "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html": {
+  "attack_types": ["unauthorized_access", "supply_chain"]
+ },
+ "https://www.security-next.com/191994": {
+  "victim": "バンダイロジパル（バンダイナムコHD子会社）"
+ },
+ "https://www.security-next.com/191846": {
+  "victim": "ラクスライトクラウド（ラクス子会社）"
+ }
+}
